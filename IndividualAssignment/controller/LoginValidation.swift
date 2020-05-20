@@ -14,9 +14,9 @@ class LoginValidation {
         // Loop the data and check for each username and password
     }
     
-    func validateUser(_ userData : Dictionary<String, AnyObject>,_ username : String,_ password : String) -> Bool {
+    func validateUser(_ userData : Dictionary<String, AnyObject>) -> Bool {
         do {
-            if ( userData["username"]!.isEqual(username) && userData["password"]!.isEqual(password) ) {
+            if ( userData["username"]!.isEqual(self.username) && userData["password"]!.isEqual(self.password) ) {
                 return true
             } else {
                 print("Error : Invalid Username and Password")
@@ -25,8 +25,6 @@ class LoginValidation {
         } catch let error {
             print("Error : " + error.localizedDescription)
         }
-        
-        return true
     }
     
 }

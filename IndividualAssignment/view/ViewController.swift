@@ -21,12 +21,19 @@ class ViewController: UIViewController {
                 self.username = usernameField.text!
                 self.password = passwordField.text!
                 
-                let userDara = FileController().readFile("User")
-                if ( LoginValidation.validateUser(userData, self.username, self.password) ) {
-                    User.init( (String) userData["name"] )
-                }
+                self.userData = FileController().readFile("User")
+                let lv = LoginValidation.init(self.username, self.password)
                 
-                performSegue(withIdentifier: "pass", sender: self)
+                if ( lv.validateUser(self.userData) == true ) {
+                    performSegue(withIdentifier: "pass", sender: self)
+                } else {
+                    let popupMsg = UIAlertController(title: "Error", message: "Invalid Username and Password", preferredStyle: .alert)
+                    let okBtn = UIAlertAction(title: "OK", style: .default, handler: {
+                        (action) -> Void in
+                    })
+                    popupMsg.addAction(okBtn)
+                    present(popupMsg, animated: true, completion: nil)
+                }
             } else {
                 let popupMsg = UIAlertController(title: "Error", message: "Invalid Username and Password", preferredStyle: .alert)
                 let okBtn = UIAlertAction(title: "OK", style: .default, handler: {

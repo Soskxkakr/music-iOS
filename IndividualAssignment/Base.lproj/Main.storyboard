@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Noteworthy.ttc">
+            <string>Noteworthy-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -18,49 +23,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAM-e3-YQ8">
-                                <rect key="frame" x="189" y="352" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76063873381804925" green="0.79294851036269431" blue="0.76260581264454563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Login">
-                                    <color key="titleColor" red="0.95188181375992498" green="1" blue="0.94839873585231393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KWm-si-ARb"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JFJ-9b-cce">
-                                <rect key="frame" x="67" y="36" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXw-6j-kGe">
-                                <rect key="frame" x="70" y="223" width="91" height="21"/>
+                                <rect key="frame" x="41" y="233" width="145" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qv-mw-sIg">
-                                <rect key="frame" x="70" y="295" width="91" height="21"/>
+                                <rect key="frame" x="41" y="297" width="145" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ijH-Uk-0wa">
-                                <rect key="frame" x="189" y="290" width="136" height="30"/>
+                                <rect key="frame" x="200" y="306" width="136" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N5e-1B-ty6">
-                                <rect key="frame" x="189" y="218" width="136" height="30"/>
+                                <rect key="frame" x="200" y="242" width="136" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fuL-aB-vsK" userLabel="Facebook Logo">
+                                <rect key="frame" x="85" y="599" width="57" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icons8_facebook_48px.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ex6-zc-xF8" userLabel="Twitter Logo">
+                                <rect key="frame" x="160" y="599" width="57" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icons8_twitter_48px.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7S-nM-9Ua" userLabel="Google Logo">
+                                <rect key="frame" x="232" y="599" width="57" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="icons8_google_48px.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAM-e3-YQ8">
+                                <rect key="frame" x="115" y="375" width="145" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.70974856615066528" green="0.70983505249023438" blue="0.70971912145614624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
+                                <state key="normal" title=" Login" image="icons8_login_64px.png">
+                                    <color key="titleColor" red="0.95188181375992498" green="1" blue="0.94839873585231393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KWm-si-ARb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.70976360103626945" green="0.70976360103626945" blue="0.70976360103626945" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -84,16 +101,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[welcome message]" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vln-mT-VdU">
-                                <rect key="frame" x="100" y="43" width="175" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="31" y="43" width="318" height="35.5"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q28-Ce-Dtu">
-                                <rect key="frame" x="149" y="115" width="77" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q28-Ce-Dtu">
+                                <rect key="frame" x="115" y="99" width="145" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75986498594284058" green="0.7906002402305603" blue="0.76064670085906982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Logout">
+                                <color key="backgroundColor" red="0.70974856615066528" green="0.70983505249023438" blue="0.70971912145614624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
+                                <state key="normal" title=" Logout" image="icons8_shutdown_48px.png">
                                     <color key="titleColor" red="0.86529809236526489" green="0.91139680147171021" blue="0.86649304628372192" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -104,9 +122,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.70974856615066528" green="0.70983505249023438" blue="0.70971912145614624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="vln-mT-VdU" firstAttribute="leading" secondItem="Plv-wM-OyY" secondAttribute="leading" constant="100" id="0iU-kk-OQA"/>
-                            <constraint firstItem="Plv-wM-OyY" firstAttribute="trailing" secondItem="vln-mT-VdU" secondAttribute="trailing" constant="100" id="AnC-dC-w6N"/>
-                            <constraint firstItem="vln-mT-VdU" firstAttribute="top" secondItem="Plv-wM-OyY" secondAttribute="top" constant="23" id="BRZ-Jr-s2j"/>
+                            <constraint firstItem="Plv-wM-OyY" firstAttribute="trailing" secondItem="vln-mT-VdU" secondAttribute="trailing" constant="26" id="Bfy-98-xYs"/>
+                            <constraint firstItem="vln-mT-VdU" firstAttribute="top" secondItem="Plv-wM-OyY" secondAttribute="top" constant="23" id="NHD-d3-gvg"/>
+                            <constraint firstItem="vln-mT-VdU" firstAttribute="leading" secondItem="Plv-wM-OyY" secondAttribute="leading" constant="31" id="sKB-ND-gG7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Plv-wM-OyY"/>
                     </view>
@@ -116,7 +134,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bv3-hT-Vs2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="905" y="117"/>
+            <point key="canvasLocation" x="904.79999999999995" y="116.49175412293854"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8_facebook_48px.png" width="48" height="48"/>
+        <image name="icons8_google_48px.png" width="48" height="48"/>
+        <image name="icons8_login_64px.png" width="64" height="64"/>
+        <image name="icons8_shutdown_48px.png" width="48" height="48"/>
+        <image name="icons8_twitter_48px.png" width="48" height="48"/>
+    </resources>
 </document>

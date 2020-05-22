@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9133750A24783E2400D52BBE /* logo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9133750624783E2400D52BBE /* logo.PNG */; };
+		9133750B24783E2400D52BBE /* icons8_google_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750724783E2400D52BBE /* icons8_google_48px.png */; };
+		9133750C24783E2400D52BBE /* icons8_facebook_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750824783E2400D52BBE /* icons8_facebook_48px.png */; };
+		9133750D24783E2400D52BBE /* icons8_twitter_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750924783E2400D52BBE /* icons8_twitter_48px.png */; };
+		9133750F247840F600D52BBE /* icons8_login_64px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750E247840F500D52BBE /* icons8_login_64px.png */; };
+		91337511247842A300D52BBE /* icons8_shutdown_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 91337510247842A300D52BBE /* icons8_shutdown_48px.png */; };
 		D715B656246B16CC00D03508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B655246B16CC00D03508 /* AppDelegate.swift */; };
 		D715B658246B16CC00D03508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B657246B16CC00D03508 /* ViewController.swift */; };
 		D715B65B246B16CC00D03508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D715B659246B16CC00D03508 /* Main.storyboard */; };
@@ -21,6 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9133750624783E2400D52BBE /* logo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.PNG; path = ../../../assets/logo.PNG; sourceTree = "<group>"; };
+		9133750724783E2400D52BBE /* icons8_google_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_google_48px.png; path = ../../../assets/icons8_google_48px.png; sourceTree = "<group>"; };
+		9133750824783E2400D52BBE /* icons8_facebook_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_facebook_48px.png; path = ../../../assets/icons8_facebook_48px.png; sourceTree = "<group>"; };
+		9133750924783E2400D52BBE /* icons8_twitter_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_twitter_48px.png; path = ../../../assets/icons8_twitter_48px.png; sourceTree = "<group>"; };
+		9133750E247840F500D52BBE /* icons8_login_64px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_login_64px.png; path = ../../../assets/icons8_login_64px.png; sourceTree = "<group>"; };
+		91337510247842A300D52BBE /* icons8_shutdown_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_shutdown_48px.png; path = ../../../assets/icons8_shutdown_48px.png; sourceTree = "<group>"; };
 		D715B652246B16CC00D03508 /* IndividualAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndividualAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D715B655246B16CC00D03508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D715B657246B16CC00D03508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		913374FD247839D500D52BBE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				91337510247842A300D52BBE /* icons8_shutdown_48px.png */,
+				9133750E247840F500D52BBE /* icons8_login_64px.png */,
+				9133750824783E2400D52BBE /* icons8_facebook_48px.png */,
+				9133750724783E2400D52BBE /* icons8_google_48px.png */,
+				9133750924783E2400D52BBE /* icons8_twitter_48px.png */,
+				9133750624783E2400D52BBE /* logo.PNG */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
 		D715B649246B16CC00D03508 = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +91,8 @@
 		D715B654246B16CC00D03508 /* IndividualAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				913374FD247839D500D52BBE /* assets */,
 				D7D2E038246BA35900FF1E2F /* resources */,
-				D715B672246B373500D03508 /* assets */,
 				D715B66D246B1D0100D03508 /* model */,
 				D715B66C246B1CFD00D03508 /* view */,
 				D715B66B246B1CFA00D03508 /* controller */,
@@ -105,13 +130,6 @@
 				D715B66E246B1DDF00D03508 /* User.swift */,
 			);
 			path = model;
-			sourceTree = "<group>";
-		};
-		D715B672246B373500D03508 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = assets;
 			sourceTree = "<group>";
 		};
 		D7D2E038246BA35900FF1E2F /* resources */ = {
@@ -181,9 +199,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9133750F247840F600D52BBE /* icons8_login_64px.png in Resources */,
+				91337511247842A300D52BBE /* icons8_shutdown_48px.png in Resources */,
+				9133750B24783E2400D52BBE /* icons8_google_48px.png in Resources */,
 				D7D2E03B246BA42500FF1E2F /* User.json in Resources */,
+				9133750C24783E2400D52BBE /* icons8_facebook_48px.png in Resources */,
+				9133750D24783E2400D52BBE /* icons8_twitter_48px.png in Resources */,
 				D715B663246B16CC00D03508 /* LaunchScreen.storyboard in Resources */,
 				D715B660246B16CC00D03508 /* Assets.xcassets in Resources */,
+				9133750A24783E2400D52BBE /* logo.PNG in Resources */,
 				D715B65B246B16CC00D03508 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,6 +1,8 @@
 {
     "id" : 1,
-    "name" : "Reinaldo",
+    "name" : "Reinaldo Taslim",
+    "email" : "aldo.taslim@gmail.com",
+    "contact_no" : "+60172768929",
     "username" : "rei",
     "password" : "123"
 }

@@ -6,6 +6,7 @@ class ViewController: UIViewController {
     var username : String = ""
     var password : String = ""
     var userData : Dictionary<String, AnyObject> = [:]
+    var user = User()
     
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
@@ -18,14 +19,15 @@ class ViewController: UIViewController {
     @IBAction func login(_ sender: UIButton) {
         do {
             if ( usernameField.text != "" && passwordField.text != "" ) {
-                self.username = usernameField.text!
-                self.password = passwordField.text!
                 
                 self.userData = FileController().readFile("User")
-                let lv = LoginValidation.init(self.username, self.password)
+                let lv = LoginValidation.init(self.usernameField.text!, self.passwordField.text!)
                 
                 if ( lv.validateUser(self.userData) == true ) {
-                    performSegue(withIdentifier: "pass", sender: self)
+                    user = User.init( String(describing : self.userData["name"]!),
+                               String(describing : self.userData["email"]!),
+                               String(describing : self.userData["contact_no"]!))
+                    performSegue(withIdentifier: "pass", sender: self) // Go to HomeController ( Home Page )
                 } else {
                     let popupMsg = UIAlertController(title: "Error", message: "Invalid Username and Password", preferredStyle: .alert)
                     let okBtn = UIAlertAction(title: "OK", style: .default, handler: {
@@ -51,7 +53,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "pass" {
             let homePage = segue.destination as! HomeController
-            homePage.receivedName = usernameField.text!
+            homePage.receivedName = user.getName()
         }
     }
     

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pyz-V3-Xwk">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,28 +25,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXw-6j-kGe">
-                                <rect key="frame" x="41" y="233" width="145" height="48"/>
+                                <rect key="frame" x="41" y="163" width="145" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qv-mw-sIg">
-                                <rect key="frame" x="41" y="297" width="145" height="48"/>
+                                <rect key="frame" x="41" y="250" width="145" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ijH-Uk-0wa">
-                                <rect key="frame" x="200" y="306" width="136" height="30"/>
+                                <rect key="frame" x="41" y="306" width="279" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N5e-1B-ty6">
-                                <rect key="frame" x="200" y="242" width="136" height="30"/>
+                                <rect key="frame" x="41" y="212" width="279" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -67,11 +68,11 @@
                                 <state key="normal" image="icons8_google_48px.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAM-e3-YQ8">
-                                <rect key="frame" x="115" y="375" width="145" height="64"/>
+                                <rect key="frame" x="41" y="364" width="279" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.70974856615066528" green="0.70983505249023438" blue="0.70971912145614624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
-                                <state key="normal" title=" Login" image="icons8_login_64px.png">
+                                <color key="backgroundColor" red="0.44027232485023593" green="0.44570778565085611" blue="0.44570778565085611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
+                                <state key="normal" title=" Login">
                                     <color key="titleColor" red="0.95188181375992498" green="1" blue="0.94839873585231393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -90,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+            <point key="canvasLocation" x="158" y="-176"/>
         </scene>
         <!--Home Controller-->
         <scene sceneID="z6Q-vS-NHz">
@@ -116,9 +117,18 @@
                                 </state>
                                 <connections>
                                     <action selector="logout:" destination="7pC-eB-H9G" eventType="touchUpInside" id="r74-iv-EJw"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="back" id="YWH-fY-1B9"/>
                                 </connections>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CUZ-Qn-Nl9">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="rp5-Yw-1Vy"/>
+                                    <tabBarItem title="Item" id="1jz-Es-yZn"/>
+                                    <tabBarItem systemItem="more" id="AQd-Ka-ULf"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.70974856615066528" green="0.70983505249023438" blue="0.70971912145614624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -134,13 +144,131 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bv3-hT-Vs2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="904.79999999999995" y="116.49175412293854"/>
+            <point key="canvasLocation" x="1314" y="-354"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="W3n-Px-7vU">
+            <objects>
+                <viewController id="qmW-BS-aNO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="itM-xz-iBb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.70974856620000004" green="0.70983505250000001" blue="0.70971912150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="s7G-vC-aKE"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="icons8_search_30px.png" id="ezs-6g-YxJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZy-Cw-TYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1258" y="1128"/>
+        </scene>
+        <!--My Account-->
+        <scene sceneID="MT6-Jf-cVQ">
+            <objects>
+                <viewController id="P4K-nX-rLw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AzY-AK-8NK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.70974856620000004" green="0.70983505250000001" blue="0.70971912150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ej6-g3-0q1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Account" image="icons8_customer_30px.png" id="vqe-P4-50i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uXo-PH-lYc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1975" y="1128"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="zWA-aR-RMF">
+            <objects>
+                <viewController id="Vnf-vd-ldk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J3y-xc-j4Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IUQ-Pw-4tR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hpE-g3-jBo" customClass="MusicCell" customModule="IndividualAssignment" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hpE-g3-jBo" id="aUb-gM-6k6">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Phn-Gm-gSQ">
+                                                    <rect key="frame" x="15" y="9" width="124.5" height="70"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Phn-Gm-gSQ" secondAttribute="height" multiplier="16:9" id="6hD-Ad-xbg"/>
+                                                        <constraint firstAttribute="width" constant="126" id="KPN-Qk-aoG"/>
+                                                        <constraint firstAttribute="height" constant="70" id="qll-ZD-7XI"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Song Artist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXn-4w-cDd">
+                                                    <rect key="frame" x="155" y="58" width="85.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Song Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8S-Hg-BFx">
+                                                    <rect key="frame" x="155" y="11" width="77.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Phn-Gm-gSQ" firstAttribute="leading" secondItem="aUb-gM-6k6" secondAttribute="leading" constant="15" id="0I2-89-bsx"/>
+                                                <constraint firstItem="f8S-Hg-BFx" firstAttribute="leading" secondItem="Phn-Gm-gSQ" secondAttribute="trailing" constant="15.5" id="Zh5-U1-x4f"/>
+                                                <constraint firstItem="fXn-4w-cDd" firstAttribute="leading" secondItem="Phn-Gm-gSQ" secondAttribute="trailing" constant="15.5" id="uSE-Fz-6xh"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.70974856615066528" green="0.70983505249023438" blue="0.70971912145614624" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="IUQ-Pw-4tR" secondAttribute="bottom" id="6sE-Ls-Td2"/>
+                            <constraint firstItem="IUQ-Pw-4tR" firstAttribute="top" secondItem="J3y-xc-j4Z" secondAttribute="top" id="Mhv-BF-6O7"/>
+                            <constraint firstItem="IUQ-Pw-4tR" firstAttribute="trailing" secondItem="LmE-LO-cBJ" secondAttribute="trailing" id="vuT-ov-SGb"/>
+                            <constraint firstItem="IUQ-Pw-4tR" firstAttribute="leading" secondItem="LmE-LO-cBJ" secondAttribute="leading" id="zV0-CG-I6P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LmE-LO-cBJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="icons8_home_30px.png" id="Iqe-bN-I0N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bXe-Ob-Dfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="532" y="1127.5862068965519"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="N75-Tw-L5I">
+            <objects>
+                <tabBarController id="Pyz-V3-Xwk" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g8I-Rk-j4l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Vnf-vd-ldk" kind="relationship" relationship="viewControllers" id="yGw-sx-ChW"/>
+                        <segue destination="qmW-BS-aNO" kind="relationship" relationship="viewControllers" id="0I9-Ud-aFu"/>
+                        <segue destination="P4K-nX-rLw" kind="relationship" relationship="viewControllers" id="Odm-tW-vz3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aod-dZ-yPK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1255" y="352"/>
         </scene>
     </scenes>
     <resources>
+        <image name="icons8_customer_30px.png" width="30" height="30"/>
         <image name="icons8_facebook_48px.png" width="48" height="48"/>
         <image name="icons8_google_48px.png" width="48" height="48"/>
-        <image name="icons8_login_64px.png" width="64" height="64"/>
+        <image name="icons8_home_30px.png" width="30" height="30"/>
+        <image name="icons8_search_30px.png" width="30" height="30"/>
         <image name="icons8_shutdown_48px.png" width="48" height="48"/>
         <image name="icons8_twitter_48px.png" width="48" height="48"/>
     </resources>

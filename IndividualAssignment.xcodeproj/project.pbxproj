@@ -13,6 +13,7 @@
 		9133750D24783E2400D52BBE /* icons8_twitter_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750924783E2400D52BBE /* icons8_twitter_48px.png */; };
 		9133750F247840F600D52BBE /* icons8_login_64px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750E247840F500D52BBE /* icons8_login_64px.png */; };
 		91337511247842A300D52BBE /* icons8_shutdown_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 91337510247842A300D52BBE /* icons8_shutdown_48px.png */; };
+		918B91732478FB9600F678C1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918B91722478FB9600F678C1 /* Song.swift */; };
 		D715B656246B16CC00D03508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B655246B16CC00D03508 /* AppDelegate.swift */; };
 		D715B658246B16CC00D03508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B657246B16CC00D03508 /* ViewController.swift */; };
 		D715B65B246B16CC00D03508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D715B659246B16CC00D03508 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		9133750924783E2400D52BBE /* icons8_twitter_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_twitter_48px.png; path = ../../../assets/icons8_twitter_48px.png; sourceTree = "<group>"; };
 		9133750E247840F500D52BBE /* icons8_login_64px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_login_64px.png; path = ../../../assets/icons8_login_64px.png; sourceTree = "<group>"; };
 		91337510247842A300D52BBE /* icons8_shutdown_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_shutdown_48px.png; path = ../../../assets/icons8_shutdown_48px.png; sourceTree = "<group>"; };
+		918B91722478FB9600F678C1 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		D715B652246B16CC00D03508 /* IndividualAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndividualAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D715B655246B16CC00D03508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D715B657246B16CC00D03508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				D715B66E246B1DDF00D03508 /* User.swift */,
+				918B91722478FB9600F678C1 /* Song.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				D715B65E246B16CC00D03508 /* IndividualAssignment.xcdatamodeld in Sources */,
 				D715B658246B16CC00D03508 /* ViewController.swift in Sources */,
 				D715B676246B457000D03508 /* FileController.swift in Sources */,
+				918B91732478FB9600F678C1 /* Song.swift in Sources */,
 				D715B656246B16CC00D03508 /* AppDelegate.swift in Sources */,
 				D715B674246B44E700D03508 /* LoginValidation.swift in Sources */,
 				D715B671246B271E00D03508 /* HomeController.swift in Sources */,

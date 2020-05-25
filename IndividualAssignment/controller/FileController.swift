@@ -3,8 +3,6 @@ import Foundation
 
 class FileController {
     
-    var userData : Dictionary<String, AnyObject> = [:]
-    
     func readFile(_ filePath : String) -> Dictionary<String, AnyObject> {
         // Open JSON File and Read
         do {
@@ -16,7 +14,7 @@ class FileController {
         } catch {
             print("error : "+error.localizedDescription)
         }
-        return userData
+        return [:]
     }
     
     func clearFile() -> Bool {

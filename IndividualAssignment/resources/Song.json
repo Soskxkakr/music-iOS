@@ -1,10 +1,32 @@
 {
-    "Taylor Swift" : [{
-                      "title" : "Red",
-                      "duration" : "3:38"
-                      },
-                      {
-                      "title" : "The Story Of Us",
-                      "duration" : "4:27"
-                      }]
+    "Taylor Swift": [{
+                     "title": "Red",
+                     "duration": "3:38"
+                     },
+                     {
+                     "title": "The Story Of Us",
+                     "duration": "4:27"
+                     },
+                     {
+                     "title": "Love Story",
+                     "duration": "3:56"
+                     },
+                     {
+                     "title": "Speak Now",
+                     "duration": "4:00"
+                     }
+                     ],
+    "John Mayer": [{
+                   "title": "Your Body Is A Wonderland",
+                   "duration": "4:09"
+                   },
+                   {
+                   "title": "Gravity",
+                   "duration": "4:05"
+                   },
+                   {
+                   "title": "Stop This Train",
+                   "duration": "4:45"
+                   }
+                   ]
 }

@@ -25,10 +25,10 @@ class MusicListScreen: UIViewController {
         
         var tempSongs : [Song] = []
         
-        let song1 = Song(#imageLiteral(resourceName: "icons8_google_48px.png"), "Red", "Taylor Swift", "3:38")
-        let song2 = Song(#imageLiteral(resourceName: "icons8_google_48px.png"), "Red", "Taylor Swift", "3:38")
-        let song3 = Song(#imageLiteral(resourceName: "icons8_google_48px.png"), "Red", "Taylor Swift", "3:38")
-        let song4 = Song(#imageLiteral(resourceName: "icons8_google_48px.png"), "Red", "Taylor Swift", "3:38")
+        let song1 = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), "Red", "Taylor Swift", "3:38")
+        let song2 = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), "Red", "Taylor Swift", "3:38")
+        let song3 = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), "Red", "Taylor Swift", "3:38")
+        let song4 = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), "Red", "Taylor Swift", "3:38")
         
         tempSongs.append(song1)
         tempSongs.append(song2)

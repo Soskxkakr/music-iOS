@@ -24,7 +24,7 @@ class ViewController: UIViewController {
                 let lv = LoginValidation.init(self.usernameField.text!, self.passwordField.text!)
                 
                 if ( lv.validateUser(self.userData) == true ) {
-                    user = User.init( String(describing : self.userData["name"]!),
+                    self.user = User.init( String(describing : self.userData["name"]!),
                                String(describing : self.userData["email"]!),
                                String(describing : self.userData["contact_no"]!))
                     performSegue(withIdentifier: "pass", sender: self) // Go to HomeController ( Home Page )
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "pass" {
             let homePage = segue.destination as! HomeController
-            homePage.receivedName = user.getName()
+            homePage.user = self.user
         }
     }
     

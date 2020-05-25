@@ -16,6 +16,11 @@ class MusicCell: UITableViewCell {
     @IBOutlet weak var duration: UILabel!
     
     func setMusic(music : Song) {
+        // Make image round
+        musicImageView.layer.cornerRadius = musicImageView.frame.size.width/2
+        musicImageView.clipsToBounds = true
+        
+        // Create the view of the Music Cell
         musicImageView.image = music.image
         musicTitle.text = music.title
         musicArtist.text = music.artist

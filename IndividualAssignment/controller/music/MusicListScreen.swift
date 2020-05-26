@@ -33,7 +33,7 @@ class MusicListScreen: UIViewController {
                     let song = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), songDetails["title"]!, artist, songDetails["duration"]!)
                     tempSongs.append(song)
                 } else {
-                    let song = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), songDetails["title"]!, artist, songDetails["duration"]!)
+                    let song = Song(#imageLiteral(resourceName: "john-mayer.PNG"), songDetails["title"]!, artist, songDetails["duration"]!)
                     tempSongs.append(song)
                 }
 

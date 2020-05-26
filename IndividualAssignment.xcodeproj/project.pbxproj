@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		910D1B09247BC96A00DA6502 /* taylor-swift-icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 910D1B08247BC96A00DA6502 /* taylor-swift-icon.PNG */; };
 		910D1B0C247BDB9F00DA6502 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D1B0B247BDB9F00DA6502 /* HomeController.swift */; };
+		91277D9F247D096D007D4559 /* john-mayer.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 91277D9E247D096D007D4559 /* john-mayer.PNG */; };
 		9133750B24783E2400D52BBE /* icons8_google_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750724783E2400D52BBE /* icons8_google_48px.png */; };
 		9133750C24783E2400D52BBE /* icons8_facebook_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750824783E2400D52BBE /* icons8_facebook_48px.png */; };
 		9133750D24783E2400D52BBE /* icons8_twitter_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750924783E2400D52BBE /* icons8_twitter_48px.png */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		910D1B08247BC96A00DA6502 /* taylor-swift-icon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "taylor-swift-icon.PNG"; path = "../../../assets/taylor-swift-icon.PNG"; sourceTree = "<group>"; };
 		910D1B0B247BDB9F00DA6502 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		91277D9E247D096D007D4559 /* john-mayer.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "john-mayer.PNG"; path = "../../../assets/john-mayer.PNG"; sourceTree = "<group>"; };
 		9133750724783E2400D52BBE /* icons8_google_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_google_48px.png; path = ../../../assets/icons8_google_48px.png; sourceTree = "<group>"; };
 		9133750824783E2400D52BBE /* icons8_facebook_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_facebook_48px.png; path = ../../../assets/icons8_facebook_48px.png; sourceTree = "<group>"; };
 		9133750924783E2400D52BBE /* icons8_twitter_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_twitter_48px.png; path = ../../../assets/icons8_twitter_48px.png; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		913374FD247839D500D52BBE /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				91277D9E247D096D007D4559 /* john-mayer.PNG */,
 				910D1B08247BC96A00DA6502 /* taylor-swift-icon.PNG */,
 				91D5151124798E32000A7B1E /* icons8_customer_30px.png */,
 				91D5151224798E32000A7B1E /* icons8_home_30px.png */,
@@ -246,6 +249,7 @@
 				9133750B24783E2400D52BBE /* icons8_google_48px.png in Resources */,
 				91D5151624798E33000A7B1E /* icons8_search_30px.png in Resources */,
 				D7D2E03B246BA42500FF1E2F /* User.json in Resources */,
+				91277D9F247D096D007D4559 /* john-mayer.PNG in Resources */,
 				9133750C24783E2400D52BBE /* icons8_facebook_48px.png in Resources */,
 				91D5151524798E33000A7B1E /* icons8_home_30px.png in Resources */,
 				9133750D24783E2400D52BBE /* icons8_twitter_48px.png in Resources */,

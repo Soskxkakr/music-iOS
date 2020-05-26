@@ -6,7 +6,7 @@ class FileController {
     func readFile(_ filePath : String) -> Dictionary<String, AnyObject> {
         // Open JSON File and Read
         do {
-            let fileURL = Bundle.main.path(forResource: filePath, ofType: "json")
+            let fileURL = Bundle.main.path(forResource: filePath, ofType: "json") // User.json
             let data = try Data(contentsOf : URL(fileURLWithPath : fileURL!), options : .mappedIfSafe)
             let jsonObj = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
             let userData = jsonObj as? Dictionary<String, AnyObject>

@@ -14,8 +14,10 @@ class HomeController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let me = self.viewControllers![2] as! NavMeController
+        let nav = self.viewControllers![2] as! UINavigationController
+        let me = nav.viewControllers.first as! MeController
         me.user = self.user
+        print("LMAAAO \(user.getName())")
         // Do any additional setup after loading the view.
     }
 }

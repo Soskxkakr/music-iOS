@@ -24,9 +24,10 @@ class ViewController: UIViewController {
                 let lv = LoginValidation.init(self.usernameField.text!, self.passwordField.text!)
                 
                 if ( lv.validateUser(self.userData) == true ) {
-                    self.user = User.init( String(describing : self.userData["name"]!),
-                               String(describing : self.userData["email"]!),
-                               String(describing : self.userData["contact_no"]!))
+                    self.user = User.init( String(describing : self.userData["id"]!),
+                                           String(describing : self.userData["name"]!),
+                                           String(describing : self.userData["email"]!),
+                                           String(describing : self.userData["contact_no"]!))
                     performSegue(withIdentifier: "pass", sender: self) // Go to HomeController ( Home Page )
                 } else {
                     let popupMsg = UIAlertController(title: "Error", message: "Invalid Username and Password", preferredStyle: .alert)

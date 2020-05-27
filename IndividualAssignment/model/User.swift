@@ -11,8 +11,8 @@ class User {
         // Do Nothing
     }
     
-    init(_ name : String,_ email : String,_ contactNo : String) {
-        self.id = UUID().uuidString
+    init(_ id : String,_ name : String,_ email : String,_ contactNo : String) {
+        self.id = id
         self.name = name
         self.email = email
         self.contactNo = contactNo

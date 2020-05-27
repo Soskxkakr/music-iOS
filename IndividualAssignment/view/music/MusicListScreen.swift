@@ -36,21 +36,8 @@ class MusicListScreen: UIViewController {
                     let song = Song(#imageLiteral(resourceName: "john-mayer.PNG"), songDetails["title"]!, artist, songDetails["duration"]!)
                     tempSongs.append(song)
                 }
-
             }
         }
-        
-        
-//        let song1 = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), "Red", "Taylor Swift", "3:38")
-//        let song2 = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), "Red", "Taylor Swift", "3:38")
-//        let song3 = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), "Red", "Taylor Swift", "3:38")
-//        let song4 = Song(#imageLiteral(resourceName: "taylor-swift-icon.PNG"), "Red", "Taylor Swift", "3:38")
-        
-//        tempSongs.append(song1)
-//        tempSongs.append(song2)
-//        tempSongs.append(song3)
-//        tempSongs.append(song4)
-        
         return tempSongs
     }
 }

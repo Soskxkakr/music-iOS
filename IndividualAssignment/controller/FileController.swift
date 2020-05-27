@@ -17,6 +17,15 @@ class FileController {
         return [:]
     }
     
+    func writeFile(_ jsonString : String) -> Bool {
+//        do {
+//            try! jsonString.w
+//        } catch {
+//            print(error.localizedDescription)
+//        }
+        return true
+    }
+    
     func clearFile() -> Bool {
         // Erase all data inside a file
         return true

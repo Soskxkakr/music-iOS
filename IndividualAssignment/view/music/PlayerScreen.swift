@@ -14,9 +14,21 @@ class PlayerScreen: UIViewController {
     @IBOutlet weak var songTitle: UILabel!
     @IBOutlet weak var songArtist: UILabel!
     
+    var mySong = Song()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // Make image round
+        image.layer.cornerRadius = image.frame.size.width/2
+        image.clipsToBounds = true
+        
+        self.image.image = mySong.image
+        self.songTitle.text = mySong.title
+        self.songArtist.text = mySong.artist
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func back(_ sender: Any) {
+        
     }
 }

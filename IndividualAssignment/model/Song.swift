@@ -12,6 +12,10 @@ class Song {
     // Improved attributes from json
     var songDetails : Dictionary<String, AnyObject> = [:]
     
+    init() {
+        self.image = #imageLiteral(resourceName: "taylor-swift-icon.PNG")
+    }
+    
     init(_ songDetails : Dictionary<String, AnyObject>) {
         self.image = #imageLiteral(resourceName: "taylor-swift-icon.PNG")
         self.title = ""

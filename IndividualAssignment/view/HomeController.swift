@@ -17,7 +17,6 @@ class HomeController: UITabBarController {
         let nav = self.viewControllers![2] as! UINavigationController
         let me = nav.viewControllers.first as! MeController
         me.user = self.user
-        print("LMAAAO \(user.getName())")
         // Do any additional setup after loading the view.
     }
 }

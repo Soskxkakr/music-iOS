@@ -378,10 +378,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a7s-UZ-Mae">
-                                <rect key="frame" x="67" y="121" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNc-O3-9FB">
                                 <rect key="frame" x="67" y="424" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -411,6 +407,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdX-xn-7p1">
+                                <rect key="frame" x="67" y="526" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZR-00-gUQ">
+                                <rect key="frame" x="261" y="526" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="back:" destination="Cgu-iD-1MN" eventType="touchUpInside" id="UD9-n5-aJv"/>
+                                    <segue destination="Vnf-vd-ldk" kind="show" id="ekM-V0-tBv"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a7s-UZ-Mae">
+                                <rect key="frame" x="112" y="99" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.70974856620000004" green="0.70983505250000001" blue="0.70971912150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Gjh-ve-iRh"/>
@@ -517,6 +531,7 @@
                     <tabBarItem key="tabBarItem" title="Home" image="icons8_home_30px.png" selectedImage="icons8_home_30px.png" id="Iqe-bN-I0N"/>
                     <connections>
                         <outlet property="tableView" destination="IUQ-Pw-4tR" id="Kur-Sa-2eg"/>
+                        <segue destination="Cgu-iD-1MN" kind="show" identifier="player" id="xm0-s4-jBl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXe-Ob-Dfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -570,4 +585,7 @@
         <image name="icons8_search_30px.png" width="30" height="30"/>
         <image name="icons8_twitter_48px.png" width="48" height="48"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ekM-V0-tBv"/>
+    </inferredMetricsTieBreakers>
 </document>

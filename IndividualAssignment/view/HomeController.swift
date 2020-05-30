@@ -15,7 +15,9 @@ class HomeController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let nav = self.viewControllers![2] as! UINavigationController
+        let musicScreen = self.viewControllers![0] as! MusicListScreen
         let me = nav.viewControllers.first as! MeController
+        musicScreen.user = self.user
         me.user = self.user
         // Do any additional setup after loading the view.
     }

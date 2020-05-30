@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		910D1B09247BC96A00DA6502 /* taylor-swift-icon.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 910D1B08247BC96A00DA6502 /* taylor-swift-icon.PNG */; };
 		910D1B0C247BDB9F00DA6502 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D1B0B247BDB9F00DA6502 /* HomeController.swift */; };
 		912197F0247ED49500F57E48 /* PlayerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912197EF247ED49500F57E48 /* PlayerScreen.swift */; };
-		91277D9F247D096D007D4559 /* john-mayer.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 91277D9E247D096D007D4559 /* john-mayer.PNG */; };
-		9133750B24783E2400D52BBE /* icons8_google_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750724783E2400D52BBE /* icons8_google_48px.png */; };
-		9133750C24783E2400D52BBE /* icons8_facebook_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750824783E2400D52BBE /* icons8_facebook_48px.png */; };
-		9133750D24783E2400D52BBE /* icons8_twitter_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9133750924783E2400D52BBE /* icons8_twitter_48px.png */; };
 		918B91732478FB9600F678C1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918B91722478FB9600F678C1 /* Song.swift */; };
+		919C6E3124827D2B003448A5 /* john-mayer.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E2F24827D2B003448A5 /* john-mayer.PNG */; };
+		919C6E3224827D2B003448A5 /* taylor-swift.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3024827D2B003448A5 /* taylor-swift.PNG */; };
+		919C6E3E24827D38003448A5 /* icons8_back_to_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3324827D38003448A5 /* icons8_back_to_30px.png */; };
+		919C6E3F24827D38003448A5 /* icons8_google_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3424827D38003448A5 /* icons8_google_48px.png */; };
+		919C6E4024827D38003448A5 /* icons8_facebook_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3524827D38003448A5 /* icons8_facebook_48px.png */; };
+		919C6E4124827D38003448A5 /* icons8_customer_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3624827D38003448A5 /* icons8_customer_30px.png */; };
+		919C6E4224827D38003448A5 /* icons8_play_30px_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3724827D38003448A5 /* icons8_play_30px_2.png */; };
+		919C6E4324827D38003448A5 /* icons8_search_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3824827D38003448A5 /* icons8_search_30px.png */; };
+		919C6E4424827D38003448A5 /* icons8_home_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3924827D38003448A5 /* icons8_home_30px.png */; };
+		919C6E4524827D38003448A5 /* icons8_stop_30px_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3A24827D38003448A5 /* icons8_stop_30px_1.png */; };
+		919C6E4624827D38003448A5 /* icons8_twitter_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3B24827D38003448A5 /* icons8_twitter_48px.png */; };
+		919C6E4724827D38003448A5 /* icons8_plus_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3C24827D38003448A5 /* icons8_plus_30px.png */; };
+		919C6E4824827D38003448A5 /* icons8_pause_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3D24827D38003448A5 /* icons8_pause_30px.png */; };
+		919C6E4C24827D4C003448A5 /* John Mayer - Stop This Train.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E4924827D4C003448A5 /* John Mayer - Stop This Train.mp3 */; };
+		919C6E4D24827D4C003448A5 /* John Mayer - Your Body Is A Wonderland.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E4A24827D4C003448A5 /* John Mayer - Your Body Is A Wonderland.mp3 */; };
+		919C6E4E24827D4C003448A5 /* John Mayer - Gravity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E4B24827D4C003448A5 /* John Mayer - Gravity.mp3 */; };
+		919C6E5324827D55003448A5 /* Taylor Swift - The Story Of Us.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E4F24827D55003448A5 /* Taylor Swift - The Story Of Us.mp3 */; };
+		919C6E5424827D55003448A5 /* Taylor Swift - Speak Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E5024827D55003448A5 /* Taylor Swift - Speak Now.mp3 */; };
+		919C6E5524827D55003448A5 /* Taylor Swift - Love Story.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E5124827D55003448A5 /* Taylor Swift - Love Story.mp3 */; };
+		919C6E5624827D55003448A5 /* Taylor Swift - Red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E5224827D55003448A5 /* Taylor Swift - Red.mp3 */; };
+		919C6E582482BFDF003448A5 /* icons8_timer_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E572482BFDE003448A5 /* icons8_timer_30px.png */; };
+		919C6E5A2482C97E003448A5 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C6E592482C97E003448A5 /* SearchController.swift */; };
+		919C6E5C2482CC0D003448A5 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C6E5B2482CC0D003448A5 /* SearchCell.swift */; };
 		91CA6136247EBCE10026B546 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA6135247EBCE10026B546 /* MeController.swift */; };
 		91CA6139247EBE910026B546 /* PlanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA6138247EBE910026B546 /* PlanController.swift */; };
 		91CD192E247AA7E900430BE9 /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD192D247AA7E900430BE9 /* MusicCell.swift */; };
 		91CD1930247AAAEE00430BE9 /* Song.json in Resources */ = {isa = PBXBuildFile; fileRef = 91CD192F247AAAEE00430BE9 /* Song.json */; };
 		91CD1932247ABE3C00430BE9 /* MusicListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD1931247ABE3C00430BE9 /* MusicListScreen.swift */; };
 		91D5151024797F8F000A7B1E /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5150F24797F8F000A7B1E /* MusicTableViewCell.swift */; };
-		91D5151424798E33000A7B1E /* icons8_customer_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D5151124798E32000A7B1E /* icons8_customer_30px.png */; };
-		91D5151524798E33000A7B1E /* icons8_home_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D5151224798E32000A7B1E /* icons8_home_30px.png */; };
-		91D5151624798E33000A7B1E /* icons8_search_30px.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D5151324798E32000A7B1E /* icons8_search_30px.png */; };
 		D715B656246B16CC00D03508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B655246B16CC00D03508 /* AppDelegate.swift */; };
 		D715B658246B16CC00D03508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D715B657246B16CC00D03508 /* ViewController.swift */; };
 		D715B65B246B16CC00D03508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D715B659246B16CC00D03508 /* Main.storyboard */; };
@@ -37,23 +52,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		910D1B08247BC96A00DA6502 /* taylor-swift-icon.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "taylor-swift-icon.PNG"; path = "../../../assets/taylor-swift-icon.PNG"; sourceTree = "<group>"; };
 		910D1B0B247BDB9F00DA6502 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		912197EF247ED49500F57E48 /* PlayerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScreen.swift; sourceTree = "<group>"; };
-		91277D9E247D096D007D4559 /* john-mayer.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "john-mayer.PNG"; path = "../../../assets/john-mayer.PNG"; sourceTree = "<group>"; };
-		9133750724783E2400D52BBE /* icons8_google_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_google_48px.png; path = ../../../assets/icons8_google_48px.png; sourceTree = "<group>"; };
-		9133750824783E2400D52BBE /* icons8_facebook_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_facebook_48px.png; path = ../../../assets/icons8_facebook_48px.png; sourceTree = "<group>"; };
-		9133750924783E2400D52BBE /* icons8_twitter_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_twitter_48px.png; path = ../../../assets/icons8_twitter_48px.png; sourceTree = "<group>"; };
 		918B91722478FB9600F678C1 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		919C6E2F24827D2B003448A5 /* john-mayer.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "john-mayer.PNG"; path = "../../../../assets/artists/john-mayer.PNG"; sourceTree = "<group>"; };
+		919C6E3024827D2B003448A5 /* taylor-swift.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "taylor-swift.PNG"; path = "../../../../assets/artists/taylor-swift.PNG"; sourceTree = "<group>"; };
+		919C6E3324827D38003448A5 /* icons8_back_to_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_back_to_30px.png; path = ../../../../assets/icons/icons8_back_to_30px.png; sourceTree = "<group>"; };
+		919C6E3424827D38003448A5 /* icons8_google_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_google_48px.png; path = ../../../../assets/icons/icons8_google_48px.png; sourceTree = "<group>"; };
+		919C6E3524827D38003448A5 /* icons8_facebook_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_facebook_48px.png; path = ../../../../assets/icons/icons8_facebook_48px.png; sourceTree = "<group>"; };
+		919C6E3624827D38003448A5 /* icons8_customer_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_customer_30px.png; path = ../../../../assets/icons/icons8_customer_30px.png; sourceTree = "<group>"; };
+		919C6E3724827D38003448A5 /* icons8_play_30px_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_play_30px_2.png; path = ../../../../assets/icons/icons8_play_30px_2.png; sourceTree = "<group>"; };
+		919C6E3824827D38003448A5 /* icons8_search_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_search_30px.png; path = ../../../../assets/icons/icons8_search_30px.png; sourceTree = "<group>"; };
+		919C6E3924827D38003448A5 /* icons8_home_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_home_30px.png; path = ../../../../assets/icons/icons8_home_30px.png; sourceTree = "<group>"; };
+		919C6E3A24827D38003448A5 /* icons8_stop_30px_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_stop_30px_1.png; path = ../../../../assets/icons/icons8_stop_30px_1.png; sourceTree = "<group>"; };
+		919C6E3B24827D38003448A5 /* icons8_twitter_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_twitter_48px.png; path = ../../../../assets/icons/icons8_twitter_48px.png; sourceTree = "<group>"; };
+		919C6E3C24827D38003448A5 /* icons8_plus_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_plus_30px.png; path = ../../../../assets/icons/icons8_plus_30px.png; sourceTree = "<group>"; };
+		919C6E3D24827D38003448A5 /* icons8_pause_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_pause_30px.png; path = ../../../../assets/icons/icons8_pause_30px.png; sourceTree = "<group>"; };
+		919C6E4924827D4C003448A5 /* John Mayer - Stop This Train.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "John Mayer - Stop This Train.mp3"; path = "../../../../../assets/musics/john_mayer/John Mayer - Stop This Train.mp3"; sourceTree = "<group>"; };
+		919C6E4A24827D4C003448A5 /* John Mayer - Your Body Is A Wonderland.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "John Mayer - Your Body Is A Wonderland.mp3"; path = "../../../../../assets/musics/john_mayer/John Mayer - Your Body Is A Wonderland.mp3"; sourceTree = "<group>"; };
+		919C6E4B24827D4C003448A5 /* John Mayer - Gravity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "John Mayer - Gravity.mp3"; path = "../../../../../assets/musics/john_mayer/John Mayer - Gravity.mp3"; sourceTree = "<group>"; };
+		919C6E4F24827D55003448A5 /* Taylor Swift - The Story Of Us.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Taylor Swift - The Story Of Us.mp3"; path = "../../../../../assets/musics/taylor_swift/Taylor Swift - The Story Of Us.mp3"; sourceTree = "<group>"; };
+		919C6E5024827D55003448A5 /* Taylor Swift - Speak Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Taylor Swift - Speak Now.mp3"; path = "../../../../../assets/musics/taylor_swift/Taylor Swift - Speak Now.mp3"; sourceTree = "<group>"; };
+		919C6E5124827D55003448A5 /* Taylor Swift - Love Story.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Taylor Swift - Love Story.mp3"; path = "../../../../../assets/musics/taylor_swift/Taylor Swift - Love Story.mp3"; sourceTree = "<group>"; };
+		919C6E5224827D55003448A5 /* Taylor Swift - Red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Taylor Swift - Red.mp3"; path = "../../../../../assets/musics/taylor_swift/Taylor Swift - Red.mp3"; sourceTree = "<group>"; };
+		919C6E572482BFDE003448A5 /* icons8_timer_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_timer_30px.png; path = ../../../../assets/icons/icons8_timer_30px.png; sourceTree = "<group>"; };
+		919C6E592482C97E003448A5 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		919C6E5B2482CC0D003448A5 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		91CA6135247EBCE10026B546 /* MeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
 		91CA6138247EBE910026B546 /* PlanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanController.swift; sourceTree = "<group>"; };
 		91CD192D247AA7E900430BE9 /* MusicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
 		91CD192F247AAAEE00430BE9 /* Song.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Song.json; sourceTree = "<group>"; };
 		91CD1931247ABE3C00430BE9 /* MusicListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListScreen.swift; sourceTree = "<group>"; };
 		91D5150F24797F8F000A7B1E /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
-		91D5151124798E32000A7B1E /* icons8_customer_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_customer_30px.png; path = ../../../assets/icons8_customer_30px.png; sourceTree = "<group>"; };
-		91D5151224798E32000A7B1E /* icons8_home_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_home_30px.png; path = ../../../assets/icons8_home_30px.png; sourceTree = "<group>"; };
-		91D5151324798E32000A7B1E /* icons8_search_30px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icons8_search_30px.png; path = ../../../assets/icons8_search_30px.png; sourceTree = "<group>"; };
 		D715B652246B16CC00D03508 /* IndividualAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndividualAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D715B655246B16CC00D03508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D715B657246B16CC00D03508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +130,8 @@
 		910D1B0E247BDD8A00DA6502 /* search */ = {
 			isa = PBXGroup;
 			children = (
+				919C6E592482C97E003448A5 /* SearchController.swift */,
+				919C6E5B2482CC0D003448A5 /* SearchCell.swift */,
 			);
 			path = search;
 			sourceTree = "<group>";
@@ -107,16 +139,69 @@
 		913374FD247839D500D52BBE /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				91277D9E247D096D007D4559 /* john-mayer.PNG */,
-				910D1B08247BC96A00DA6502 /* taylor-swift-icon.PNG */,
-				91D5151124798E32000A7B1E /* icons8_customer_30px.png */,
-				91D5151224798E32000A7B1E /* icons8_home_30px.png */,
-				91D5151324798E32000A7B1E /* icons8_search_30px.png */,
-				9133750824783E2400D52BBE /* icons8_facebook_48px.png */,
-				9133750724783E2400D52BBE /* icons8_google_48px.png */,
-				9133750924783E2400D52BBE /* icons8_twitter_48px.png */,
+				91B35CC524827973002730DC /* artists */,
+				91B35CA92482782B002730DC /* musics */,
+				91B35C9D24827523002730DC /* icons */,
 			);
 			path = assets;
+			sourceTree = "<group>";
+		};
+		91B35C9D24827523002730DC /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				919C6E572482BFDE003448A5 /* icons8_timer_30px.png */,
+				919C6E3324827D38003448A5 /* icons8_back_to_30px.png */,
+				919C6E3624827D38003448A5 /* icons8_customer_30px.png */,
+				919C6E3524827D38003448A5 /* icons8_facebook_48px.png */,
+				919C6E3424827D38003448A5 /* icons8_google_48px.png */,
+				919C6E3924827D38003448A5 /* icons8_home_30px.png */,
+				919C6E3D24827D38003448A5 /* icons8_pause_30px.png */,
+				919C6E3724827D38003448A5 /* icons8_play_30px_2.png */,
+				919C6E3C24827D38003448A5 /* icons8_plus_30px.png */,
+				919C6E3824827D38003448A5 /* icons8_search_30px.png */,
+				919C6E3A24827D38003448A5 /* icons8_stop_30px_1.png */,
+				919C6E3B24827D38003448A5 /* icons8_twitter_48px.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		91B35CA92482782B002730DC /* musics */ = {
+			isa = PBXGroup;
+			children = (
+				91B35CB3248278CE002730DC /* john_mayer */,
+				91B35CAA24827830002730DC /* taylor_swift */,
+			);
+			path = musics;
+			sourceTree = "<group>";
+		};
+		91B35CAA24827830002730DC /* taylor_swift */ = {
+			isa = PBXGroup;
+			children = (
+				919C6E5124827D55003448A5 /* Taylor Swift - Love Story.mp3 */,
+				919C6E5224827D55003448A5 /* Taylor Swift - Red.mp3 */,
+				919C6E5024827D55003448A5 /* Taylor Swift - Speak Now.mp3 */,
+				919C6E4F24827D55003448A5 /* Taylor Swift - The Story Of Us.mp3 */,
+			);
+			path = taylor_swift;
+			sourceTree = "<group>";
+		};
+		91B35CB3248278CE002730DC /* john_mayer */ = {
+			isa = PBXGroup;
+			children = (
+				919C6E4B24827D4C003448A5 /* John Mayer - Gravity.mp3 */,
+				919C6E4924827D4C003448A5 /* John Mayer - Stop This Train.mp3 */,
+				919C6E4A24827D4C003448A5 /* John Mayer - Your Body Is A Wonderland.mp3 */,
+			);
+			path = john_mayer;
+			sourceTree = "<group>";
+		};
+		91B35CC524827973002730DC /* artists */ = {
+			isa = PBXGroup;
+			children = (
+				919C6E2F24827D2B003448A5 /* john-mayer.PNG */,
+				919C6E3024827D2B003448A5 /* taylor-swift.PNG */,
+			);
+			path = artists;
 			sourceTree = "<group>";
 		};
 		91CA6137247EBE690026B546 /* me */ = {
@@ -262,19 +347,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91D5151424798E33000A7B1E /* icons8_customer_30px.png in Resources */,
-				910D1B09247BC96A00DA6502 /* taylor-swift-icon.PNG in Resources */,
-				9133750B24783E2400D52BBE /* icons8_google_48px.png in Resources */,
-				91D5151624798E33000A7B1E /* icons8_search_30px.png in Resources */,
 				D7D2E03B246BA42500FF1E2F /* User.json in Resources */,
-				91277D9F247D096D007D4559 /* john-mayer.PNG in Resources */,
-				9133750C24783E2400D52BBE /* icons8_facebook_48px.png in Resources */,
-				91D5151524798E33000A7B1E /* icons8_home_30px.png in Resources */,
-				9133750D24783E2400D52BBE /* icons8_twitter_48px.png in Resources */,
 				91CD1930247AAAEE00430BE9 /* Song.json in Resources */,
+				919C6E4524827D38003448A5 /* icons8_stop_30px_1.png in Resources */,
+				919C6E5624827D55003448A5 /* Taylor Swift - Red.mp3 in Resources */,
+				919C6E4624827D38003448A5 /* icons8_twitter_48px.png in Resources */,
+				919C6E5324827D55003448A5 /* Taylor Swift - The Story Of Us.mp3 in Resources */,
+				919C6E4E24827D4C003448A5 /* John Mayer - Gravity.mp3 in Resources */,
+				919C6E4124827D38003448A5 /* icons8_customer_30px.png in Resources */,
+				919C6E3E24827D38003448A5 /* icons8_back_to_30px.png in Resources */,
+				919C6E4D24827D4C003448A5 /* John Mayer - Your Body Is A Wonderland.mp3 in Resources */,
+				919C6E4724827D38003448A5 /* icons8_plus_30px.png in Resources */,
 				D715B663246B16CC00D03508 /* LaunchScreen.storyboard in Resources */,
 				D715B660246B16CC00D03508 /* Assets.xcassets in Resources */,
+				919C6E4824827D38003448A5 /* icons8_pause_30px.png in Resources */,
+				919C6E4024827D38003448A5 /* icons8_facebook_48px.png in Resources */,
+				919C6E3224827D2B003448A5 /* taylor-swift.PNG in Resources */,
+				919C6E3F24827D38003448A5 /* icons8_google_48px.png in Resources */,
+				919C6E5424827D55003448A5 /* Taylor Swift - Speak Now.mp3 in Resources */,
+				919C6E582482BFDF003448A5 /* icons8_timer_30px.png in Resources */,
+				919C6E4C24827D4C003448A5 /* John Mayer - Stop This Train.mp3 in Resources */,
+				919C6E4424827D38003448A5 /* icons8_home_30px.png in Resources */,
+				919C6E4224827D38003448A5 /* icons8_play_30px_2.png in Resources */,
 				D715B65B246B16CC00D03508 /* Main.storyboard in Resources */,
+				919C6E4324827D38003448A5 /* icons8_search_30px.png in Resources */,
+				919C6E3124827D2B003448A5 /* john-mayer.PNG in Resources */,
+				919C6E5524827D55003448A5 /* Taylor Swift - Love Story.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +384,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D715B66F246B1DDF00D03508 /* User.swift in Sources */,
+				919C6E5C2482CC0D003448A5 /* SearchCell.swift in Sources */,
+				919C6E5A2482C97E003448A5 /* SearchController.swift in Sources */,
 				D715B65E246B16CC00D03508 /* IndividualAssignment.xcdatamodeld in Sources */,
 				D715B658246B16CC00D03508 /* ViewController.swift in Sources */,
 				91CA6136247EBCE10026B546 /* MeController.swift in Sources */,

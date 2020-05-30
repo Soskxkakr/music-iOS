@@ -1,15 +1,16 @@
 //
-//  MusicListScreen.swift
+//  SearchController.swift
 //  IndividualAssignment
 //
-//  Created by Reinaldo Taslim on 24/05/2020.
+//  Created by Reinaldo Taslim on 30/05/2020.
 //  Copyright © 2020 Reinaldo Taslim. All rights reserved.
 //
 
 import UIKit
 
-class MusicListScreen: UIViewController {
+class SearchController: UIViewController {
 
+    @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
     
     var user = User()
@@ -18,12 +19,10 @@ class MusicListScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        musics = createArray()
-        
-        tableView.delegate = self
-        tableView.dataSource = self
-    }
 
+        // Do any additional setup after loading the view.
+    }
+    
     func createArray() -> [Song] {
         
         var tempSongs : [Song] = []
@@ -53,7 +52,7 @@ class MusicListScreen: UIViewController {
     }
 }
 
-extension MusicListScreen: UITableViewDataSource, UITableViewDelegate {
+extension SearchController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return musics.count
@@ -61,7 +60,7 @@ extension MusicListScreen: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let music = musics[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MusicCell") as! MusicCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SearchedMusic") as! SearchCell
         
         cell.setMusic(music: music)
         return cell
@@ -73,5 +72,11 @@ extension MusicListScreen: UITableViewDataSource, UITableViewDelegate {
         selectedMusic.artist = musics[indexPath.row].artist
         selectedMusic.duration = musics[indexPath.row].duration
         performSegue(withIdentifier: "player", sender: self)
+    }
+}
+
+extension SearchController: UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        
     }
 }

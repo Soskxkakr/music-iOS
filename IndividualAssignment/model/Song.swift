@@ -13,11 +13,11 @@ class Song {
     var songDetails : Dictionary<String, AnyObject> = [:]
     
     init() {
-        self.image = #imageLiteral(resourceName: "taylor-swift-icon.PNG")
+        self.image = UIImage()
     }
     
     init(_ songDetails : Dictionary<String, AnyObject>) {
-        self.image = #imageLiteral(resourceName: "taylor-swift-icon.PNG")
+        self.image = UIImage()
         self.title = ""
         self.duration = ""
         self.songDetails = songDetails

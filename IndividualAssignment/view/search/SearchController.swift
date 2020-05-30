@@ -16,10 +16,15 @@ class SearchController: UIViewController {
     var user = User()
     var musics : [Song] = []
     var selectedMusic = Song()
+    var searchMusic = [Song]()
+    var searching = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        musics = createArray()
+        
+        tableView.delegate = self
+        tableView.dataSource = self
         // Do any additional setup after loading the view.
     }
     
@@ -55,14 +60,22 @@ class SearchController: UIViewController {
 extension SearchController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return musics.count
+        if searching {
+            return searchMusic.count
+        } else {
+            return musics.count
+        }
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let music = musics[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "SearchedMusic") as! SearchCell
-        
-        cell.setMusic(music: music)
+        if searching {
+            cell.setMusic(music: searchMusic[indexPath.row])
+        } else {
+            cell.setMusic(music: music)
+        }
         return cell
     }
     
@@ -76,7 +89,10 @@ extension SearchController: UITableViewDataSource, UITableViewDelegate {
 }
 
 extension SearchController: UISearchBarDelegate {
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
+        searchMusic = musics.filter( {$0.title.prefix(searchText.count) == searchText} )
+        searching = true
+        tableView.reloadData()
     }
 }

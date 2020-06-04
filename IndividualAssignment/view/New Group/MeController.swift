@@ -23,7 +23,6 @@ class MeController: UIViewController {
         greeting.text = "Hi, "+user.getName()
         email.text = user.getEmail()
         contactNo.text = user.getContactNo()
-        subscription.text = "None"
         // Do any additional setup after loading the view.
     }
 

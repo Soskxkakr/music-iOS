@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		910D1B0C247BDB9F00DA6502 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D1B0B247BDB9F00DA6502 /* HomeController.swift */; };
 		912197F0247ED49500F57E48 /* PlayerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912197EF247ED49500F57E48 /* PlayerScreen.swift */; };
+		91775FA1248C0E4700CC21B5 /* ConfirmPurchaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91775FA0248C0E4700CC21B5 /* ConfirmPurchaseController.swift */; };
 		918B91732478FB9600F678C1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918B91722478FB9600F678C1 /* Song.swift */; };
 		919C6E3124827D2B003448A5 /* john-mayer.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E2F24827D2B003448A5 /* john-mayer.PNG */; };
 		919C6E3224827D2B003448A5 /* taylor-swift.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 919C6E3024827D2B003448A5 /* taylor-swift.PNG */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		910D1B0B247BDB9F00DA6502 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		912197EF247ED49500F57E48 /* PlayerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScreen.swift; sourceTree = "<group>"; };
+		91775FA0248C0E4700CC21B5 /* ConfirmPurchaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPurchaseController.swift; sourceTree = "<group>"; };
 		918B91722478FB9600F678C1 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		919C6E2F24827D2B003448A5 /* john-mayer.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "john-mayer.PNG"; path = "../../../../assets/artists/john-mayer.PNG"; sourceTree = "<group>"; };
 		919C6E3024827D2B003448A5 /* taylor-swift.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "taylor-swift.PNG"; path = "../../../../assets/artists/taylor-swift.PNG"; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				91FDA9722488DD1800C32AD6 /* MembershipCell.swift */,
 				91CA6135247EBCE10026B546 /* MeController.swift */,
 				91CA6138247EBE910026B546 /* PlanController.swift */,
+				91775FA0248C0E4700CC21B5 /* ConfirmPurchaseController.swift */,
 			);
 			name = me;
 			path = "New Group";
@@ -387,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D715B66F246B1DDF00D03508 /* User.swift in Sources */,
+				91775FA1248C0E4700CC21B5 /* ConfirmPurchaseController.swift in Sources */,
 				919C6E5C2482CC0D003448A5 /* SearchCell.swift in Sources */,
 				919C6E5A2482C97E003448A5 /* SearchController.swift in Sources */,
 				D715B65E246B16CC00D03508 /* IndividualAssignment.xcdatamodeld in Sources */,

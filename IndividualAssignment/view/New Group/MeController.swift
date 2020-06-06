@@ -16,6 +16,7 @@ class MeController: UIViewController {
     @IBOutlet weak var subscription: UILabel!
     
     var user = User()
+    var receivedPlan = "[subscription]"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,18 @@ class MeController: UIViewController {
         greeting.text = "Hi, "+user.getName()
         email.text = user.getEmail()
         contactNo.text = user.getContactNo()
+        subscription.text = receivedPlan
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func renewPlan(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "renewPlan", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "renewPlan" {
+            let plan = segue.destination as! PlanController
+            plan.user = self.user
+        }
+    }
 }

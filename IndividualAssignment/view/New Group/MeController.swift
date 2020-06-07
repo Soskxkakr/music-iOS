@@ -16,7 +16,7 @@ class MeController: UIViewController {
     @IBOutlet weak var subscription: UILabel!
     
     var user = User()
-    var receivedPlan = "[subscription]"
+    var receivedPlan = "No subscription"
     
     override func viewDidLoad() {
         super.viewDidLoad()

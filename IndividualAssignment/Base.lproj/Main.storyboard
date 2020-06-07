@@ -368,7 +368,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fk2-6S-IJP">
                                 <rect key="frame" x="0.0" y="97" width="375" height="526"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.70974856620000004" green="0.70983505250000001" blue="0.70971912150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="526" id="Fex-3P-wmk"/>
                                     <constraint firstAttribute="width" secondItem="fk2-6S-IJP" secondAttribute="height" multiplier="375:526" id="XFY-G4-Ag9"/>
@@ -411,6 +411,7 @@
                                                     </connections>
                                                 </button>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.70974856620000004" green="0.70983505250000001" blue="0.70971912150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="hAM-Na-Nhl" firstAttribute="leading" secondItem="piZ-ZN-5XE" secondAttribute="trailing" constant="53" id="41z-Ii-hUS"/>
                                                 <constraint firstItem="piZ-ZN-5XE" firstAttribute="leading" secondItem="OBJ-3g-sbr" secondAttribute="leadingMargin" id="8k7-6f-QdI"/>
@@ -434,6 +435,7 @@
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Membership Plans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84k-jW-mi7">
                                 <rect key="frame" x="16" y="53" width="343" height="36"/>
+                                <color key="backgroundColor" red="0.70974856620000004" green="0.70983505250000001" blue="0.70971912150000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="09D-tl-hXD"/>
                                     <constraint firstAttribute="width" constant="343" id="CRA-k5-Bxr"/>
@@ -911,7 +913,7 @@
         <image name="icons8_twitter_48px.png" width="48" height="48"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TYV-LH-Xgs"/>
+        <segue reference="OVj-pt-Lds"/>
         <segue reference="Ejz-Dy-dL8"/>
         <segue reference="eau-Fa-Q8C"/>
         <segue reference="6bi-qc-gw0"/>
